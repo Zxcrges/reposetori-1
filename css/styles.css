@@ -1,0 +1,39 @@
+/* h2 {
+    color: red;
+} */
+
+/* * {
+    color: green;
+}  */
+a {
+    text-decoration: none;
+} 
+.list {
+    list-style: none;
+    font-size: 20px;
+}
+.list-header {
+    color: green;
+}
+/* #hero {
+    color: gray;
+} */
+
+a[href*="google"] {
+    color: orange;
+}
+h2,h3,ul {
+    margin: 0;
+}
+header li {
+    color: yellow;
+}
+section p {
+    font-size: 15px;
+}
+nav + a {
+    background-color: yellow;
+}
+.hero ~ p {
+    background-color: grey;
+}
