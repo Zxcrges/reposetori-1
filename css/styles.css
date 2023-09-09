@@ -1,10 +1,19 @@
-/* h2 {
+:root {
+    --accent-color:#FED136;
+    --main-color:#777
+    --add-color:#222
+    --add-white:#fff
+}
+h2,h3 {
+    color: var(--accent-color);
+}
+/* /* h2 {
     color: red;
 } */
 
 /* * {
     color: green;
-}  */
+}  
 a {
     text-decoration: none;
 } 
@@ -17,7 +26,7 @@ a {
 }
 /* #hero {
     color: gray;
-} */
+} 
 
 a[href*="google"] {
     color: orange;
@@ -36,4 +45,16 @@ nav + a {
 }
 .hero ~ p {
     background-color: grey;
+} */
+h2, h3 {
+    color: tomato;
+}
+.nav {
+    color: rgb(186,228,103,);
+}
+header{
+    background-color: rgba(140,189,44,0.2);
+}
+.list-hero > li{
+     color: #82BF09;
 }
